@@ -180,7 +180,7 @@ return function( Index )
 		    ["swmeFooter"] = color("#681607"),
 		    ["swmeBGA"] = color("#933600"),
             ["swmeBGB"] = color("#680707"),
-            ["swmeGrid"] = color("#F18A40"),
+            ["swmeGrid"] = color("#7AF8FF"),
             ["swmePattern"] = color("#F6A5F750"),
             ["serviceBG"] = color("#471706"),
             ["playModeIconsBaseColor"] = color("#E7212173"),
@@ -215,7 +215,7 @@ return function( Index )
 			["menuTextLoseFocus"] = color("#FFFFFF"),
 			["optionExplanationBG"] = color("#00000050")
 		}, -- end Fuego
-		{ -- (6) Dark Mode
+		{ -- Dark Mode
 			["titleBGA"] = color("#050505"),
 			["titleBGB"] = color("#151515"),
 			["titleBGPattern"] = color("#666666"),
@@ -223,7 +223,7 @@ return function( Index )
 			["swmeFooter"] = color("#333333"),
 			["swmeBGA"] = color("#050505"),
 			["swmeBGB"] = color("#151515"),
-			["swmeGrid"] = color("#545454"),
+			["swmeGrid"] = color("#AAAAAA"),
 			["swmePattern"] = color("#FAFAFA50"),
 			["serviceBG"] = color("#101010"),
 			["playModeIconsBaseColor"] = color("#22222270"),
@@ -258,7 +258,7 @@ return function( Index )
 			["menuTextLoseFocus"] = color("#DDDDDD"),
 			["optionExplanationBG"] = color("#00000050")
 		}, -- end Dark Mode
-		{ -- (7) Chaos
+		{ -- Chaos
 			["titleBGA"] = color("#23272a"),
 			["titleBGB"] = color("#99aab5"),
 			["titleBGPattern"] = color("#2c2f33"),
@@ -301,16 +301,16 @@ return function( Index )
 			["menuTextLoseFocus"] = color("#99aab5"),
 			["optionExplanationBG"] = color("#23272a")
 		}, -- end Chaos
-		{  -- (8) Ice
+		{  -- Ice
 			["titleBGA"] = color("#4488FF"),
 			["titleBGB"] = color("#112244"),
 			["titleBGPattern"] = color("#4488FF"),
 			["swmeHF"] = color("#224488"),
 			["swmeFooter"] = color("#224488"),
-			["swmeBGA"] = color("#2856B2"),
+			["swmeBGA"] = color("#224488"),
 			["swmeBGB"] = color("#224488"),
 			["swmeGrid"] = color("#224488"),
-			["swmePattern"] = color("#4374D474"),
+			["swmePattern"] = color("#22448850"),
 			["serviceBG"] = color("#224488"),
 			["playModeIconsBaseColor"] = color("#4488FF73"),
 			["playModeIconsBaseGradient"] = color("#22448873"),
@@ -344,7 +344,7 @@ return function( Index )
 			["menuTextLoseFocus"] = color("#4488FF"),
 			["optionExplanationBG"] = color("#00000050")
 		}, -- end Ice
-		{ -- (9) Wave
+		{ -- (6) Wave
             ["titleBGA"] = color("#009696"),
             ["titleBGB"] = color("#00FFB2"),
             ["titleBGPattern"] = color("#3ED1D1"),
@@ -387,49 +387,6 @@ return function( Index )
             ["menuTextLoseFocus"] = color("#878787"),
             ["optionExplanationBG"] = color("#00000090")
         }, -- end Wave
-		{ -- (10) Alien Alien
-					["titleBGA"] = color("#000000"),
-			["titleBGB"] = color("#001000"),
-			["titleBGPattern"] = color("#00c700"),
-			["swmeHF"] = color("#000000"),
-			["swmeFooter"] = color("#000000"),
-			["swmeBGA"] = color("#000000"),
-			["swmeBGB"] = color("#000000"),
-			["swmeGrid"] = color("#000000"),
-			["swmePattern"] = color("#00c700FF"),
-			["serviceBG"] = color("#001000"),
-			["playModeIconsBaseColor"] = color("#000000FF"),
-			["playModeIconsBaseGradient"] = color("#00c000FF"),
-			["playModeIconsEmblem"] = color("#FFFFFF75"),
-			["headerTextColor"] = color("#FFFFFFFF"),
-			["headerTextGradient"] = color("#68758F"),
-			["midShadeA"] = color("#001000"),
-			["headerSortA"] = color("#002000"),
-			["headerSortB"] = color("#001000"),
-			["headerStripeA"] = color("#00c700"),
-			["headerStripeB"] = color("#009000"),
-			["promptBG"] = color("#000500"),
-			["wheelHighlightFade"] = color("#00400050"),
-			["wheelHighlightA"] = color("#009000"),
-			["wheelHighlightB"] = color("#00c700"),
-			["wheelSongItem"] = color("#000000"),		
-			["wheelSectionItemA"] = color("#002000"),			
-			["wheelSectionItemB"] = color("#006000"),				
-			["SSMHelpPopup"] = color("#00c700"),
-			["gameplayHeader"] = color("#000000"),
-            ["gameplayTitle"] = color("#001c00"),
-            ["gameplayMeter"] = color("#00c700"),
-			["lifeFrame"] = color("#004000"),
-			["lifeMeter"] = color("#008000"),
-			["menuBlockBase"] = color("#001000"),
-			["menuBlockGlow"] = color("#000000"),
-			["titlemenuBlockGlow"] = color("#000000"),
-			["menuBlockHighlightA"] = color("#00c700"),
-			["menuBlockHighlightB"] = color("#00c700"),
-			["menuTextGainFocus"] = color("#FFFFFF"),
-			["menuTextLoseFocus"] = color("#FFFFFF"),
-			["optionExplanationBG"] = color("#00000050")
-		},
 		{ -- BISTRO
             ["titleBGA"] = color("#FFFFFF"),
             ["titleBGB"] = color("#0488ff"),
@@ -473,6 +430,49 @@ return function( Index )
             ["menuTextLoseFocus"] = color("#8a878a"),
             ["optionExplanationBG"] = color("#4C4C4C")
         }, -- end BISTRO
+		{ -- BISTRO Simple
+            ["titleBGA"] = color("#FFFFFF"),
+            ["titleBGB"] = color("#0488ff"),
+            ["titleBGPattern"] = color("#0488ff"),
+            ["swmeHF"] = color("#0488ff"),
+            ["swmeFooter"] = color("#0488ff"),
+            ["swmeBGA"] = color("#FFFFFF"),
+            ["swmeBGB"] = color("#0488ff"),
+            ["swmeGrid"] = color("#0488ff"),
+            ["swmePattern"] = color("#FFFFFF"),
+            ["serviceBG"] = color("#0488ff"),
+            ["playModeIconsBaseColor"] = color("#0488ff"),
+            ["playModeIconsBaseGradient"] = color("#0488ff"),
+            ["playModeIconsEmblem"] = color("#FFFFFF"),
+            ["headerTextColor"] = color("#FFFFFF"),
+            ["headerTextGradient"] = color("#FFFFFF"),
+            ["midShadeA"] = color("#0488ff"),
+            ["headerSortA"] = color("#FFFFFF"),
+            ["headerSortB"] = color("#0488ff"),
+            ["headerStripeA"] = color("#0488ff"),
+            ["headerStripeB"] = color("#FFFFFF"),
+            ["promptBG"] = color("#0488ff"),
+			["wheelHighlightFade"] = color("#FFFFFF"),
+			["wheelHighlightA"] = color("#0488ff"),
+			["wheelHighlightB"] = color("#0488ff"),
+			["wheelSongItem"] = color("#47464a"),		
+			["wheelSectionItemA"] = color("#0488ff"),			
+			["wheelSectionItemB"] = color("#0488ff"),				
+            ["SSMHelpPopup"] = color("#0488ff"),
+            ["gameplayHeader"] = color("#0488ff"),
+            ["gameplayTitle"] = color("#d6ea8e"),
+            ["gameplayMeter"] = color("#0488ff"),
+			["lifeFrame"] = color("#93020b"),
+			["lifeMeter"] = color("#93020b"),
+            ["menuBlockBase"] = color("#463d44"),
+            ["menuBlockGlow"] = color("#f6f5f4"),
+            ["titlemenuBlockGlow"] = color("#47464a"),
+            ["menuBlockHighlightA"] = color("#0488ff"),
+            ["menuBlockHighlightB"] = color("#FFFFFF"),
+            ["menuTextGainFocus"] = color("#FFFFFF"),
+            ["menuTextLoseFocus"] = color("#8a878a"),
+            ["optionExplanationBG"] = color("#4C4C4C")
+        }, -- end BISTRO Simple
     }
     return Index and Items[tonumber(Index)] or Items[1]
 end

@@ -377,7 +377,7 @@ return {
 	SoundwavesSubTheme =
 	{
 		Default = 1,
-		Choices = { OptionNameString('swClassic'), OptionNameString('swVaporwave'), OptionNameString('swGrass'), OptionNameString('swRetro'), OptionNameString('swFire'), "Dark", "Chaos", "Ice", "Wave", "Alien Alien", "BISTRO"},
+		Choices = { OptionNameString('swClassic'), OptionNameString('swVaporwave'), OptionNameString('swGrass'), OptionNameString('swRetro'), OptionNameString('swFire'), "Dark", "Chaos", "Ice", "Wave", "BISTRO", "BISTRO Simple"},
 		Values = {1,2,3,4,5,6,7,8,9,10,11}
 	},
 	LifeType =
@@ -555,7 +555,6 @@ return {
 	scattery =
 	{
 		Default = 200,
-		OneInRow = true,
 		Choices = fornumrange(100,600,50),
 		Values = fornumrange(100,600,50),
 		LoadFunction = function(self, list) list[ (LoadModule("Profile.LoadFromLocalID.lua")("scattery",self.Values) or 3) ] = true end,
@@ -572,7 +571,6 @@ return {
 	judgmenty =
 	{
 		Default = -80,
-		OneInRow = true,
 		Choices = fornumrange(-300,100,20),
 		Values = fornumrange(-300,100,20),
 		LoadFunction = function(self, list)
@@ -631,12 +629,6 @@ return {
 		Default = false,
 		Choices = { OptionNameString('Off'), OptionNameString('On') },
 		Values = { false,true }
-	},
-	SoundwavesMenuBG =
-	{
-		Default = "Ocular",
-		Choices = { "Circle", "Triangle", "Hexagon", "Square", OptionNameString('swBGSolid'), OptionNameString('swBGBlack') },
-		Values = { "Ocular", "Triangles", "HexagonPattern", "CheckerBoard", "ColorBackground", "BlackBackground" }
 	},
 
 	-- System Related Options
